@@ -1,7 +1,7 @@
 {
-  "name": "noteWorthy",
+  "name": "noteworthy",
   "version": "1.0.0",
-  "description": "",
+  "description": "This note taking application involves building the back end of the application using Express.js and connecting it with the existing front end. The ultimate goal is to create a seamless user experience",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
