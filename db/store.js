@@ -15,4 +15,15 @@ class Store {
   write(note) {
     return writeFileAsync("db/db.json", JSON.stringify(note));
   }
+  getNotes(){
+
+  }
+  addNote(note) {
+
+  }
+  deleteNote(id) {
+    
+  }
 };
+
+module.exports = new Store();
