@@ -27,9 +27,26 @@ class Store {
     });
   }
   addNote(note) {
+      const { title, text } = note;
+
+      if (!title || !text) {
+        throw new Error ("Please enter a title and text for your note");
+      }
+      const newNote = {
+        title, 
+        text,
+        id: uuiv4(),
+      }
+      return this.getNotes()
+        .then((notes) => [... notes, newNote])
+        .then((updateNotes) => this.write(updateNotes))
+        .then(() => newNote)
 
   }
   deleteNote(id) {
+    return this.getNotes()
+        .then((notes) => notes.filter((note) => note.id !== id))
+        .then((filteredNotes) => this.write(filteredNotes));
     
   }
 };
