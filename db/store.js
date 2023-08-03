@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs');
-const { v4: uuid4 } = require('uuid');
+const { v4: uuiv4 } = require('uuid');
 const { parse } = require('path');
 
 //Convert fs.readFile and fs.writeFile from callback-based functions to promised-based
