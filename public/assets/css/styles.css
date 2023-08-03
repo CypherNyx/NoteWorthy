@@ -3,6 +3,35 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+
+/* html>body>nav.navbar.bg-info */
+#header_nav.bg-info {
+  background-color: #AA5656 !important;
+  filter: drop-shadow(1px 3px 5px grey);
+}
+
+body>div>div>div.col-8>input,
+body>div>div>div.col-8>textarea {
+  background-color: #ffffff7d;
+}
+
+body>div>div>div.col-4.list-container>div {
+  background-color: #F9F5E7;
+}
+
+body>div>div>div.col-4.list-container>div>ul>li {
+  background-color: transparent;
+}
+
+#start-button {
+  background-color: #f92f60;
+  border: hidden;
 }
 
 .save-note {
@@ -15,6 +44,8 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+
 
 .note-textarea,
 .note-title {
