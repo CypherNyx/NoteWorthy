@@ -6,6 +6,8 @@
   ## Description
   NoteWorthy is a simple and efficient note taker application designed to help the user organize their thoughts and keep track of essential tasks. This project involves building the back end of the application using Express.js and connecting it with the existing front end. The ultimate goal is to create a seamless user experience that allows users to write, save, and retrieve notes effortlessly.
 
+  ### [Click here to check the deployed Application ➡️](https://noteworthy-note-taking-app-32b863478a35.herokuapp.com/)<br><br>
+
   ![JavaScript](./assets/js.svg)
   ![Express](./assets/express.svg)
   ![Node](./assets/node.svg)
@@ -22,7 +24,9 @@
   * [Questions](#questions)
 
  ## Screenshots
-
+![landing page](./assets/Screenshot-landing_page.png)
+![blank note](./assets/Screenshot-blank-note.png)
+![full note](./assets/Screenshot-full-note.png)
 
   ## Installation
  Clone the repository:
